@@ -1,0 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    font-size: 15pt;
+}
+@media only screen and (max-width: 982px) {
+  body {
+    background-color: darkviolet;
+  }
+  .container{
+    background-color: orangered;
+    height: 500px;
+    width: 70%;
+  }
+  .btn{
+    color: mediumspringgreen;
+    height: 30px;
+    width: 24%;
+    font-size: 80%;
+    background-color: black;
+    border: none;
+  }
+  .score{
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 25%;
+  }
+  .dice{
+    position: relative;
+    top: 10%;
+    width: 50%;
+    height: 60%;
+  }
+  .score-luck{
+     color: white;
+     position: absolute;
+     top: 440px;
+     left: 25%;
+  }
+  .chance{
+    color: whitesmoke;
+    position: absolute;
+    top: 460px;
+    left: 25%;
+  }
+}
