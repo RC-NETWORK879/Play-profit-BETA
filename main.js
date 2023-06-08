@@ -26,7 +26,7 @@ setTimeout(()=>{
   box.innerHTML += `<h6 class='score'>Score: ${score} </h6>`;
   box.innerHTML +=`<h6 class='score-luck'>Luck: ${luck}%</h6>`;
   console.log(ind);
-},1100)
+},800)
 }
 window.onload = function (){
   box.innerHTML += `<h6 class='score'>Score: ${score} </h6>`;
